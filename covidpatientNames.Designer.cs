@@ -28,20 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(covidpatientNames));
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             idNumber = new Label();
             label5 = new Label();
-            button1 = new Button();
-            button2 = new Button();
-            button4 = new Button();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             dateTimePicker1 = new DateTimePicker();
             comboBox1 = new ComboBox();
             isActive = new CheckBox();
+            toolStrip1 = new ToolStrip();
+            toolStripButton1 = new ToolStripButton();
+            newToolStripButton = new ToolStripButton();
+            openToolStripButton = new ToolStripButton();
+            saveToolStripButton = new ToolStripButton();
+            printToolStripButton = new ToolStripButton();
+            toolStripSeparator = new ToolStripSeparator();
+            cutToolStripButton = new ToolStripButton();
+            copyToolStripButton = new ToolStripButton();
+            pasteToolStripButton = new ToolStripButton();
+            toolStripSeparator1 = new ToolStripSeparator();
+            helpToolStripButton = new ToolStripButton();
+            toolStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // label1
@@ -95,34 +106,6 @@
             label5.TabIndex = 4;
             label5.Text = "gender";
             // 
-            // button1
-            // 
-            button1.Location = new Point(107, 417);
-            button1.Name = "button1";
-            button1.Size = new Size(74, 37);
-            button1.TabIndex = 6;
-            button1.Text = "new";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
-            // button2
-            // 
-            button2.Location = new Point(262, 417);
-            button2.Name = "button2";
-            button2.Size = new Size(74, 37);
-            button2.TabIndex = 7;
-            button2.Text = "save";
-            button2.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            button4.Location = new Point(493, 417);
-            button4.Name = "button4";
-            button4.Size = new Size(74, 37);
-            button4.TabIndex = 9;
-            button4.Text = "delete";
-            button4.UseVisualStyleBackColor = true;
-            // 
             // textBox1
             // 
             textBox1.AccessibleName = "name";
@@ -175,21 +158,121 @@
             isActive.Text = "isActive";
             isActive.UseVisualStyleBackColor = true;
             // 
+            // toolStrip1
+            // 
+            toolStrip1.ImageScalingSize = new Size(24, 24);
+            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButton1, newToolStripButton, openToolStripButton, saveToolStripButton, printToolStripButton, toolStripSeparator, cutToolStripButton, copyToolStripButton, pasteToolStripButton, toolStripSeparator1, helpToolStripButton });
+            toolStrip1.Location = new Point(0, 0);
+            toolStrip1.Name = "toolStrip1";
+            toolStrip1.Size = new Size(800, 33);
+            toolStrip1.TabIndex = 17;
+            toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton1
+            // 
+            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
+            toolStripButton1.ImageTransparentColor = Color.Magenta;
+            toolStripButton1.Name = "toolStripButton1";
+            toolStripButton1.Size = new Size(34, 28);
+            toolStripButton1.Text = "toolStripButton1";
+            // 
+            // newToolStripButton
+            // 
+            newToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            newToolStripButton.Image = (Image)resources.GetObject("newToolStripButton.Image");
+            newToolStripButton.ImageTransparentColor = Color.Magenta;
+            newToolStripButton.Name = "newToolStripButton";
+            newToolStripButton.Size = new Size(34, 28);
+            newToolStripButton.Text = "&New";
+            newToolStripButton.Click += this.newToolStripButton_Click_1;
+            // 
+            // openToolStripButton
+            // 
+            openToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            openToolStripButton.Image = (Image)resources.GetObject("openToolStripButton.Image");
+            openToolStripButton.ImageTransparentColor = Color.Magenta;
+            openToolStripButton.Name = "openToolStripButton";
+            openToolStripButton.Size = new Size(34, 28);
+            openToolStripButton.Text = "&Open";
+            // 
+            // saveToolStripButton
+            // 
+            saveToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            saveToolStripButton.Image = (Image)resources.GetObject("saveToolStripButton.Image");
+            saveToolStripButton.ImageTransparentColor = Color.Magenta;
+            saveToolStripButton.Name = "saveToolStripButton";
+            saveToolStripButton.Size = new Size(34, 28);
+            saveToolStripButton.Text = "&Save";
+            // 
+            // printToolStripButton
+            // 
+            printToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            printToolStripButton.Image = (Image)resources.GetObject("printToolStripButton.Image");
+            printToolStripButton.ImageTransparentColor = Color.Magenta;
+            printToolStripButton.Name = "printToolStripButton";
+            printToolStripButton.Size = new Size(34, 28);
+            printToolStripButton.Text = "&Print";
+            // 
+            // toolStripSeparator
+            // 
+            toolStripSeparator.Name = "toolStripSeparator";
+            toolStripSeparator.Size = new Size(6, 33);
+            // 
+            // cutToolStripButton
+            // 
+            cutToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            cutToolStripButton.Image = (Image)resources.GetObject("cutToolStripButton.Image");
+            cutToolStripButton.ImageTransparentColor = Color.Magenta;
+            cutToolStripButton.Name = "cutToolStripButton";
+            cutToolStripButton.Size = new Size(34, 28);
+            cutToolStripButton.Text = "C&ut";
+            // 
+            // copyToolStripButton
+            // 
+            copyToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            copyToolStripButton.Image = (Image)resources.GetObject("copyToolStripButton.Image");
+            copyToolStripButton.ImageTransparentColor = Color.Magenta;
+            copyToolStripButton.Name = "copyToolStripButton";
+            copyToolStripButton.Size = new Size(34, 28);
+            copyToolStripButton.Text = "&Copy";
+            // 
+            // pasteToolStripButton
+            // 
+            pasteToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            pasteToolStripButton.Image = (Image)resources.GetObject("pasteToolStripButton.Image");
+            pasteToolStripButton.ImageTransparentColor = Color.Magenta;
+            pasteToolStripButton.Name = "pasteToolStripButton";
+            pasteToolStripButton.Size = new Size(34, 28);
+            pasteToolStripButton.Text = "&Paste";
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(6, 33);
+            // 
+            // helpToolStripButton
+            // 
+            helpToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
+            helpToolStripButton.Image = (Image)resources.GetObject("helpToolStripButton.Image");
+            helpToolStripButton.ImageTransparentColor = Color.Magenta;
+            helpToolStripButton.Name = "helpToolStripButton";
+            helpToolStripButton.Size = new Size(34, 28);
+            helpToolStripButton.Text = "He&lp";
+            // 
             // covidpatientNames
             // 
             AccessibleName = "dob";
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 574);
+            Controls.Add(toolStrip1);
             Controls.Add(isActive);
             Controls.Add(comboBox1);
             Controls.Add(dateTimePicker1);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Controls.Add(button4);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(label5);
             Controls.Add(idNumber);
             Controls.Add(label3);
@@ -197,6 +280,8 @@
             Controls.Add(label1);
             Name = "covidpatientNames";
             Text = "CovidPatientNames";
+            toolStrip1.ResumeLayout(false);
+            toolStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -209,9 +294,6 @@
         private Label idNumber;
         private Label label5;
         private Label label6;
-        private Button button1;
-        private Button button2;
-        private Button button4;
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
@@ -219,5 +301,17 @@
         private ComboBox comboBox1;
         private TextBox textBox4;
         private CheckBox isActive;
+        private ToolStrip toolStrip1;
+        private ToolStripButton toolStripButton1;
+        private ToolStripButton newToolStripButton;
+        private ToolStripButton openToolStripButton;
+        private ToolStripButton saveToolStripButton;
+        private ToolStripButton printToolStripButton;
+        private ToolStripSeparator toolStripSeparator;
+        private ToolStripButton cutToolStripButton;
+        private ToolStripButton copyToolStripButton;
+        private ToolStripButton pasteToolStripButton;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripButton helpToolStripButton;
     }
 }
