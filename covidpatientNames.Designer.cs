@@ -1,4 +1,4 @@
-﻿namespace covid19Project
+namespace covid19Project
 {
     partial class covidpatientNames
     {
@@ -29,289 +29,286 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(covidpatientNames));
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            idNumber = new Label();
-            label5 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
-            isActive = new CheckBox();
-            toolStrip1 = new ToolStrip();
-            toolStripButton1 = new ToolStripButton();
-            newToolStripButton = new ToolStripButton();
-            openToolStripButton = new ToolStripButton();
-            saveToolStripButton = new ToolStripButton();
-            printToolStripButton = new ToolStripButton();
-            toolStripSeparator = new ToolStripSeparator();
-            cutToolStripButton = new ToolStripButton();
-            copyToolStripButton = new ToolStripButton();
-            pasteToolStripButton = new ToolStripButton();
-            toolStripSeparator1 = new ToolStripSeparator();
-            helpToolStripButton = new ToolStripButton();
-            toolStrip1.SuspendLayout();
-            SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.idNumber = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.isActive = new System.Windows.Forms.CheckBox();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.saveToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.printToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            this.cutToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.copyToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.pasteToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.helpToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip1.SuspendLayout();
+            this.SuspendLayout();
             // 
             // label1
             // 
-            label1.AccessibleName = "name";
-            label1.AutoSize = true;
-            label1.Location = new Point(89, 32);
-            label1.Name = "label1";
-            label1.Size = new Size(56, 25);
-            label1.TabIndex = 0;
-            label1.Text = "name";
-            label1.Click += label1_Click;
+            this.label1.AccessibleName = "name";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(89, 32);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(56, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "name";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
-            label2.AccessibleName = "dob";
-            label2.AutoSize = true;
-            label2.Location = new Point(73, 120);
-            label2.Name = "label2";
-            label2.Size = new Size(45, 25);
-            label2.TabIndex = 1;
-            label2.Text = "dob";
+            this.label2.AccessibleName = "dob";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(73, 120);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(45, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "dob";
             // 
             // label3
             // 
-            label3.AccessibleName = "country";
-            label3.AutoSize = true;
-            label3.Location = new Point(66, 199);
-            label3.Name = "label3";
-            label3.Size = new Size(72, 25);
-            label3.TabIndex = 2;
-            label3.Text = "country";
+            this.label3.AccessibleName = "country";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(66, 199);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 25);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "country";
             // 
             // idNumber
             // 
-            idNumber.AutoSize = true;
-            idNumber.ImageAlign = ContentAlignment.BottomLeft;
-            idNumber.Location = new Point(73, 74);
-            idNumber.Name = "idNumber";
-            idNumber.Size = new Size(52, 25);
-            idNumber.TabIndex = 3;
-            idNumber.Text = "IdNo";
+            this.idNumber.AutoSize = true;
+            this.idNumber.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.idNumber.Location = new System.Drawing.Point(73, 74);
+            this.idNumber.Name = "idNumber";
+            this.idNumber.Size = new System.Drawing.Size(52, 25);
+            this.idNumber.TabIndex = 3;
+            this.idNumber.Text = "IdNo";
             // 
             // label5
             // 
-            label5.AccessibleName = "gender";
-            label5.AutoSize = true;
-            label5.Location = new Point(66, 157);
-            label5.Name = "label5";
-            label5.Size = new Size(68, 25);
-            label5.TabIndex = 4;
-            label5.Text = "gender";
+            this.label5.AccessibleName = "gender";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(66, 157);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(68, 25);
+            this.label5.TabIndex = 4;
+            this.label5.Text = "gender";
             // 
             // textBox1
             // 
-            textBox1.AccessibleName = "name";
-            textBox1.Location = new Point(151, 32);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(140, 31);
-            textBox1.TabIndex = 10;
+            this.textBox1.AccessibleName = "name";
+            this.textBox1.Location = new System.Drawing.Point(151, 32);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(140, 31);
+            this.textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            textBox2.AccessibleName = "Country";
-            textBox2.Location = new Point(151, 199);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(140, 31);
-            textBox2.TabIndex = 11;
+            this.textBox2.AccessibleName = "Country";
+            this.textBox2.Location = new System.Drawing.Point(151, 199);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(140, 31);
+            this.textBox2.TabIndex = 11;
             // 
             // textBox3
             // 
-            textBox3.AccessibleName = "idnumber";
-            textBox3.Location = new Point(151, 71);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(140, 31);
-            textBox3.TabIndex = 12;
+            this.textBox3.AccessibleName = "idnumber";
+            this.textBox3.Location = new System.Drawing.Point(151, 71);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(140, 31);
+            this.textBox3.TabIndex = 12;
             // 
             // dateTimePicker1
             // 
-            dateTimePicker1.Location = new Point(151, 111);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(140, 31);
-            dateTimePicker1.TabIndex = 13;
+            this.dateTimePicker1.Location = new System.Drawing.Point(151, 111);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(140, 31);
+            this.dateTimePicker1.TabIndex = 13;
             // 
             // comboBox1
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "male", "female" });
-            comboBox1.Location = new Point(151, 157);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(140, 33);
-            comboBox1.TabIndex = 14;
-            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] { "male", "female" });
+            this.comboBox1.Location = new System.Drawing.Point(151, 157);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(140, 33);
+            this.comboBox1.TabIndex = 14;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // isActive
             // 
-            isActive.AccessibleName = "isActive";
-            isActive.AutoSize = true;
-            isActive.Location = new Point(151, 254);
-            isActive.Name = "isActive";
-            isActive.Size = new Size(98, 29);
-            isActive.TabIndex = 16;
-            isActive.Text = "isActive";
-            isActive.UseVisualStyleBackColor = true;
+            this.isActive.AccessibleName = "isActive";
+            this.isActive.AutoSize = true;
+            this.isActive.Location = new System.Drawing.Point(151, 254);
+            this.isActive.Name = "isActive";
+            this.isActive.Size = new System.Drawing.Size(98, 29);
+            this.isActive.TabIndex = 16;
+            this.isActive.Text = "isActive";
+            this.isActive.UseVisualStyleBackColor = true;
             // 
             // toolStrip1
             // 
-            toolStrip1.ImageScalingSize = new Size(24, 24);
-            toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButton1, newToolStripButton, openToolStripButton, saveToolStripButton, printToolStripButton, toolStripSeparator, cutToolStripButton, copyToolStripButton, pasteToolStripButton, toolStripSeparator1, helpToolStripButton });
-            toolStrip1.Location = new Point(0, 0);
-            toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(800, 33);
-            toolStrip1.TabIndex = 17;
-            toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.toolStripButton1, this.newToolStripButton, this.openToolStripButton, this.saveToolStripButton, this.printToolStripButton, this.toolStripSeparator, this.cutToolStripButton, this.copyToolStripButton, this.pasteToolStripButton, this.toolStripSeparator1, this.helpToolStripButton });
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(800, 33);
+            this.toolStrip1.TabIndex = 17;
+            this.toolStrip1.Text = "toolStrip1";
             // 
             // toolStripButton1
             // 
-            toolStripButton1.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
-            toolStripButton1.ImageTransparentColor = Color.Magenta;
-            toolStripButton1.Name = "toolStripButton1";
-            toolStripButton1.Size = new Size(34, 28);
-            toolStripButton1.Text = "toolStripButton1";
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = (System.Drawing.Image)resources.GetObject("toolStripButton1.Image");
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(34, 28);
+            this.toolStripButton1.Text = "toolStripButton1";
             // 
             // newToolStripButton
             // 
-            newToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            newToolStripButton.Image = (Image)resources.GetObject("newToolStripButton.Image");
-            newToolStripButton.ImageTransparentColor = Color.Magenta;
-            newToolStripButton.Name = "newToolStripButton";
-            newToolStripButton.Size = new Size(34, 28);
-            newToolStripButton.Text = "&New";
-            newToolStripButton.Click += this.newToolStripButton_Click_1;
+            this.newToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.newToolStripButton.Image = (System.Drawing.Image)resources.GetObject("newToolStripButton.Image");
+            this.newToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.newToolStripButton.Name = "newToolStripButton";
+            this.newToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.newToolStripButton.Text = "&New";
             // 
             // openToolStripButton
             // 
-            openToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            openToolStripButton.Image = (Image)resources.GetObject("openToolStripButton.Image");
-            openToolStripButton.ImageTransparentColor = Color.Magenta;
-            openToolStripButton.Name = "openToolStripButton";
-            openToolStripButton.Size = new Size(34, 28);
-            openToolStripButton.Text = "&Open";
+            this.openToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.openToolStripButton.Image = (System.Drawing.Image)resources.GetObject("openToolStripButton.Image");
+            this.openToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.openToolStripButton.Name = "openToolStripButton";
+            this.openToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.openToolStripButton.Text = "&Open";
             // 
             // saveToolStripButton
             // 
-            saveToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            saveToolStripButton.Image = (Image)resources.GetObject("saveToolStripButton.Image");
-            saveToolStripButton.ImageTransparentColor = Color.Magenta;
-            saveToolStripButton.Name = "saveToolStripButton";
-            saveToolStripButton.Size = new Size(34, 28);
-            saveToolStripButton.Text = "&Save";
+            this.saveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.saveToolStripButton.Image = (System.Drawing.Image)resources.GetObject("saveToolStripButton.Image");
+            this.saveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.saveToolStripButton.Name = "saveToolStripButton";
+            this.saveToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.saveToolStripButton.Text = "&Save";
             // 
             // printToolStripButton
             // 
-            printToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            printToolStripButton.Image = (Image)resources.GetObject("printToolStripButton.Image");
-            printToolStripButton.ImageTransparentColor = Color.Magenta;
-            printToolStripButton.Name = "printToolStripButton";
-            printToolStripButton.Size = new Size(34, 28);
-            printToolStripButton.Text = "&Print";
+            this.printToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.printToolStripButton.Image = (System.Drawing.Image)resources.GetObject("printToolStripButton.Image");
+            this.printToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.printToolStripButton.Name = "printToolStripButton";
+            this.printToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.printToolStripButton.Text = "&Print";
             // 
             // toolStripSeparator
             // 
-            toolStripSeparator.Name = "toolStripSeparator";
-            toolStripSeparator.Size = new Size(6, 33);
+            this.toolStripSeparator.Name = "toolStripSeparator";
+            this.toolStripSeparator.Size = new System.Drawing.Size(6, 33);
             // 
             // cutToolStripButton
             // 
-            cutToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            cutToolStripButton.Image = (Image)resources.GetObject("cutToolStripButton.Image");
-            cutToolStripButton.ImageTransparentColor = Color.Magenta;
-            cutToolStripButton.Name = "cutToolStripButton";
-            cutToolStripButton.Size = new Size(34, 28);
-            cutToolStripButton.Text = "C&ut";
+            this.cutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.cutToolStripButton.Image = (System.Drawing.Image)resources.GetObject("cutToolStripButton.Image");
+            this.cutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cutToolStripButton.Name = "cutToolStripButton";
+            this.cutToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.cutToolStripButton.Text = "C&ut";
             // 
             // copyToolStripButton
             // 
-            copyToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            copyToolStripButton.Image = (Image)resources.GetObject("copyToolStripButton.Image");
-            copyToolStripButton.ImageTransparentColor = Color.Magenta;
-            copyToolStripButton.Name = "copyToolStripButton";
-            copyToolStripButton.Size = new Size(34, 28);
-            copyToolStripButton.Text = "&Copy";
+            this.copyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.copyToolStripButton.Image = (System.Drawing.Image)resources.GetObject("copyToolStripButton.Image");
+            this.copyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.copyToolStripButton.Name = "copyToolStripButton";
+            this.copyToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.copyToolStripButton.Text = "&Copy";
             // 
             // pasteToolStripButton
             // 
-            pasteToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            pasteToolStripButton.Image = (Image)resources.GetObject("pasteToolStripButton.Image");
-            pasteToolStripButton.ImageTransparentColor = Color.Magenta;
-            pasteToolStripButton.Name = "pasteToolStripButton";
-            pasteToolStripButton.Size = new Size(34, 28);
-            pasteToolStripButton.Text = "&Paste";
+            this.pasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.pasteToolStripButton.Image = (System.Drawing.Image)resources.GetObject("pasteToolStripButton.Image");
+            this.pasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.pasteToolStripButton.Name = "pasteToolStripButton";
+            this.pasteToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.pasteToolStripButton.Text = "&Paste";
             // 
             // toolStripSeparator1
             // 
-            toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(6, 33);
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 33);
             // 
             // helpToolStripButton
             // 
-            helpToolStripButton.DisplayStyle = ToolStripItemDisplayStyle.Image;
-            helpToolStripButton.Image = (Image)resources.GetObject("helpToolStripButton.Image");
-            helpToolStripButton.ImageTransparentColor = Color.Magenta;
-            helpToolStripButton.Name = "helpToolStripButton";
-            helpToolStripButton.Size = new Size(34, 28);
-            helpToolStripButton.Text = "He&lp";
+            this.helpToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.helpToolStripButton.Image = (System.Drawing.Image)resources.GetObject("helpToolStripButton.Image");
+            this.helpToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.helpToolStripButton.Name = "helpToolStripButton";
+            this.helpToolStripButton.Size = new System.Drawing.Size(34, 28);
+            this.helpToolStripButton.Text = "He&lp";
             // 
             // covidpatientNames
             // 
-            AccessibleName = "dob";
-            AutoScaleDimensions = new SizeF(10F, 25F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 574);
-            Controls.Add(toolStrip1);
-            Controls.Add(isActive);
-            Controls.Add(comboBox1);
-            Controls.Add(dateTimePicker1);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
-            Controls.Add(label5);
-            Controls.Add(idNumber);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "covidpatientNames";
-            Text = "CovidPatientNames";
-            toolStrip1.ResumeLayout(false);
-            toolStrip1.PerformLayout();
-            ResumeLayout(false);
-            PerformLayout();
+            this.AccessibleName = "dob";
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 574);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.isActive);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.idNumber);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "covidpatientNames";
+            this.Text = "CovidPatientNames";
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
         }
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label idNumber;
-        private Label label5;
-        private Label label6;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private DateTimePicker dateTimePicker1;
-        private ComboBox comboBox1;
-        private TextBox textBox4;
-        private CheckBox isActive;
-        private ToolStrip toolStrip1;
-        private ToolStripButton toolStripButton1;
-        private ToolStripButton newToolStripButton;
-        private ToolStripButton openToolStripButton;
-        private ToolStripButton saveToolStripButton;
-        private ToolStripButton printToolStripButton;
-        private ToolStripSeparator toolStripSeparator;
-        private ToolStripButton cutToolStripButton;
-        private ToolStripButton copyToolStripButton;
-        private ToolStripButton pasteToolStripButton;
-        private ToolStripSeparator toolStripSeparator1;
-        private ToolStripButton helpToolStripButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label idNumber;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.CheckBox isActive;
+        private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.ToolStripButton toolStripButton1;
+        private System.Windows.Forms.ToolStripButton newToolStripButton;
+        private System.Windows.Forms.ToolStripButton openToolStripButton;
+        private System.Windows.Forms.ToolStripButton saveToolStripButton;
+        private System.Windows.Forms.ToolStripButton printToolStripButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator;
+        private System.Windows.Forms.ToolStripButton cutToolStripButton;
+        private System.Windows.Forms.ToolStripButton copyToolStripButton;
+        private System.Windows.Forms.ToolStripButton pasteToolStripButton;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripButton helpToolStripButton;
     }
 }
